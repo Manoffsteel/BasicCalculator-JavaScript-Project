@@ -1,0 +1,32 @@
+#calculator {
+    border: 1px solid rgb(187, 183, 183);
+    border-radius: 5px;
+    width: 200px;
+    margin: 200px 400px;
+    background-color: rgb(165, 217, 220);
+    height: 400px;
+  }
+  
+  #display {
+    margin: 18px;
+    width: 80%;
+    font-size: 30px;
+    border: 1px solid gainsboro;
+    background-color: rgb(90, 123, 142);
+    color: aliceblue;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .button {
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+  }
+  .button:hover{
+    background-color: goldenrod;
+  }
